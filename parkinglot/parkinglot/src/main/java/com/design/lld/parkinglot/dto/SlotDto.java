@@ -8,4 +8,5 @@ public class SlotDto {
     private int floor;
     private int number;
     private boolean isEmpty;
+    private ParkingLotDto parkingLotDto;
 }

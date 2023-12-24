@@ -1,6 +1,8 @@
 package com.design.lld.parkinglot.service.impl;
 
+import com.design.lld.parkinglot.dto.ParkingLotDto;
 import com.design.lld.parkinglot.dto.SlotDto;
+import com.design.lld.parkinglot.dto.VehicleDto;
 import com.design.lld.parkinglot.entity.ParkingLot;
 import com.design.lld.parkinglot.entity.Slot;
 import com.design.lld.parkinglot.entity.Vehicle;
@@ -12,27 +14,27 @@ import java.util.List;
 @Service
 public class ParkingLotManagementServiceImpl implements IParkingLotManagementService {
     @Override
-    public void createParkingLot(List<Slot> slots, ParkingLot parkingLot) {
+    public void createParkingLot(ParkingLotDto parkingLotDto) {
 
     }
 
     @Override
-    public void bookParkingLot(Slot slot, Vehicle vehicle) {
+    public void bookParkingLot(VehicleDto vehicleDto) {
 
     }
 
     @Override
-    public void vacateParkingLot(Slot slot) {
+    public void vacateParkingLot(ParkingLotDto parkingLotDto) {
 
     }
 
     @Override
-    public SlotDto getSlotStatus(Slot slot) {
+    public SlotDto getSlotStatus(SlotDto slotDto) {
         return null;
     }
 
     @Override
-    public List<Slot> getAllSlots(ParkingLot parkingLot) {
+    public List<Slot> getAllSlots(ParkingLotDto parkingLotDto) {
         return null;
     }
 }
