@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/parkinglot/parkinglot/pom.xml" />
+        <option value="$PROJECT_DIR$/notificationsystem/notificationsystem/pom.xml" />
       </list>
     </option>
   </component>
